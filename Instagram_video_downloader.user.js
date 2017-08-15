@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Instagram video downloader
 // @namespace    http://lbreda.com/
-// @version      1.0
+// @version      1.1
 // @description  Adds a download link for instagram videos in the one-image pages
 // @author       Lorenzo Breda
 // @match        https://*.instagram.com/*
@@ -19,6 +19,7 @@
         a.style.height = '24px';
         a.style.margin = '8px';
         a.style.backgroundImage = "url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAV1BMVEUAAAAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAsPlAec59cAAAAHHRSTlMAAQUHCQoRGBkcHz9AUFZecYCVqLTK0dPp7ff5cWDvugAAAG1JREFUKFPFjUcOgDAMBE0vCb0n/v87IZZBCeQIYuTDakfyAnxAqRFHn5B48IcIN7xoHNNfvcodEZxGFeDC5tGz8fRkbn1HT5YoaDKoKK8pCZ6dE4Cas7AF6mE5o3QE0cbmPGJqzQlr3IbH32IHtA8TFl6BBTUAAAAASUVORK5CYII=')";
+        a.setAttribute('download','');
         container.appendChild(a);
     }
 })();
