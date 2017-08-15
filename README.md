@@ -1,4 +1,4 @@
-# Instagram Unprotect
+# Instagram Video Downloader
 Instagram video downloader is a Userscript to download Instagram videos.
 
 A Userscript is a JavaScript mini-program you can run in your browser to manipulate the content of a web page.
