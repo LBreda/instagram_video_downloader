@@ -4,6 +4,7 @@
 // @version      1.2
 // @description  Adds a download link for instagram videos in the one-image pages
 // @author       Lorenzo Breda
+// @license      MIT
 // @match        https://*.instagram.com/*
 // @grant        none
 // ==/UserScript==
