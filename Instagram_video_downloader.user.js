@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Instagram video downloader
 // @namespace    http://lbreda.com/
-// @version      1.1
+// @version      1.2
 // @description  Adds a download link for instagram videos in the one-image pages
 // @author       Lorenzo Breda
 // @match        https://*.instagram.com/*
@@ -13,7 +13,7 @@
 
     if(document.querySelector('meta[property="og:video"]') && document.querySelector('meta[property="og:video"]').content){
         var a = document.createElement('a');
-        var container = document.querySelector('._hmd6j._8oo9w');
+        var container = document.querySelector('.ltpMr.Slqrh');
         a.href = document.querySelector('meta[property="og:video"]').content;
         a.style.width = '24px';
         a.style.height = '24px';
